@@ -9,7 +9,15 @@ Eventually I'll build this out more with inputs and all that..
 
 
 # Example
-There is an `examples` folder, but to get this started, just import and call:
+There is an `examples` folder, but to get this started
 
-`const api = createLiftSDK(apiKey);`
+`npm liftdata`
+
+then import the SDK; call 
+
+```
+import createLiftSDK from 'liftdata';
+....
+const liftAPI = createLiftSDK(apiKey);
+```
 
