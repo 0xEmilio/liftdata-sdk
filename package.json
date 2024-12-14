@@ -1,0 +1,13 @@
+{
+  "name": "liftdata-sdk",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "keywords": ["liftai", "liftdata", "playfi", "ai machines", "ai agents"],
+  "author": "ether0 <etherohm@protonmail.com>",
+  "license": "MIT",
+  "description": "Unofficial SDK for the LiftData AI Processing Machines",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
