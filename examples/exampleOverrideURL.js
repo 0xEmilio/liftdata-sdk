@@ -1,7 +1,7 @@
-import createApiSdk from '../src/index.js';
+import createLiftSDK from '../src/index.js';
 
 const apiKey = '<api key>';
-const api = createApiSdk(apiKey, 'https://staging.processing.studio.liftdata.ai/');
+const api = createLiftSDK(apiKey, 'https://staging.processing.studio.liftdata.ai/');
 
 (async () => {
     try {

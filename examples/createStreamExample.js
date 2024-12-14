@@ -1,8 +1,8 @@
-import createApiSdk from '../src/index.js';
+import createLiftSDK from '../src/index.js';
 
 // Initialize the SDK with just the API key (uses the default base URL)
 const apiKey = '<your API key>';
-const api = createApiSdk(apiKey);
+const api = createLiftSDK(apiKey);
 
 (async () => {
     try {
