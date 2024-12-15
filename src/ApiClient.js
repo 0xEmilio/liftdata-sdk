@@ -28,7 +28,7 @@ class ApiClient {
         } catch (error) {
             const status = error.response?.status || 500;
             const message = error.response?.data || error.message;
-            console.error(`API Error [${status}]: ${message}`);
+            console.error(`LIFT API Error [${status}]: ${message}`);
             throw message;
         }
     }

@@ -51,7 +51,7 @@ class ApiEndpoints {
     }
 
     // Streams - Create
-    async createStream({ url, model_id, name, pause_between_frames_ms, worker_duration_minutes }) {
+    async createStream({ url, model_id, name, pause_between_frames_ms = 100, worker_duration_minutes = 15 }) {
         const data = {
             url,
             model_id,
